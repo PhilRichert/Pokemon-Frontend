@@ -3,7 +3,7 @@ import { Button } from "sveltestrap";
 import { pokemonnpc,pkdex,pokemonplayer,npcpoints,playerpoints } from "../store.js"
 import { onMount } from "svelte";
 import Loading from "../Loading.svelte";
-import axios from "axios";
+import axios from "redaxios";
 
 
 
