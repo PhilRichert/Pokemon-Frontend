@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && npm install",
+		"build": "vite build ",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@types/axios": "^0.14.0",
 		"framer-motion": "^10.9.2",
 		"svelte-icons-pack": "^2.1.0",
 		"sveltestrap": "^5.10.0"
