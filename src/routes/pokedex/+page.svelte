@@ -70,6 +70,7 @@
 	{#each pokedex as pokemon(pokemon.id)}
 
 	<div on:click={() => expanded = pokemon.id}  class="card m-2 p-2 box" style="width: 18rem;" >
+		<h1> {pokemon.name.english}</h1>
 		<img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`} class="card-img-top" alt="Pokemonimg">
 		<div class="card-body">
 			{#if expanded === pokemon.id}
